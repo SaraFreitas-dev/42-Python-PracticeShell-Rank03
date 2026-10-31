@@ -1,6 +1,6 @@
 def first_unique_char(s: str) -> int:
     s_dict: dict[str, int] = {}
-    
+
     for letter in s:
         if not letter in s_dict:
             s_dict[letter] = 1

@@ -4,7 +4,7 @@ def atbash_cipher(text: str) -> str:
         if letter >= 'a' and letter <= 'z':
             new_text += chr(ord('a') + (ord('z') - ord(letter)))
         elif letter >= 'A' and letter <= 'Z':
-                    new_text += chr(ord('A') + (ord('Z') - ord(letter)))
+            new_text += chr(ord('A') + (ord('Z') - ord(letter)))
         else:
             new_text += letter
     return new_text

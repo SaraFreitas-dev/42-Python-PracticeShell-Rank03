@@ -1,7 +1,7 @@
 def count_palindrome_words(text: str) -> int:
     counter: int = 0
     text_lst: list[str] = text.split()
-    
+
     for word in text_lst:
         if word.lower() == word[::-1].lower():
             counter += 1

@@ -9,8 +9,8 @@ def diagonal_sum(matrix: list[list[int]]) -> int:
         right -= 1
         left += 1
     return res
-    
-    
+
+
 if __name__ == "__main__":
     print(diagonal_sum([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))  # 25
     print(diagonal_sum([[1, 2], [3, 4]]))                   # 10

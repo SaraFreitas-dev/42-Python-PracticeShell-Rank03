@@ -6,7 +6,7 @@ def word_length_sorter(words: list[str]) -> list[str]:
                 word.lower()
             )
     )
-    
+
 
 if __name__ == "__main__":
     print(word_length_sorter(["cat", "banana", "Apple", "dog"]))  # ['banana', 'Apple', 'cat', 'dog']
