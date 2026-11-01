@@ -629,6 +629,14 @@ The first column of the original matrix (read from bottom to top) becomes the
 first row of the new matrix. The matrix does not need to be square.
 An empty matrix returns an empty list.
 
+How it works, for [[1,2,3],[4,5,6]]  (2 rows x 3 columns):
+
+    original            rotated (3 rows x 2 columns)
+
+    1  2  3             4  1      first column, bottom to top
+    4  5  6             5  2      second column, bottom to top
+                        6  3      third column, bottom to top
+
 Your function must be declared as follows:
 
     def rotate_matrix(matrix: list[list[int]]) -> list[list[int]]:
